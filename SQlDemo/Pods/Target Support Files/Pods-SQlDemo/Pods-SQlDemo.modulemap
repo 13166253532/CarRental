@@ -1,0 +1,6 @@
+framework module Pods_SQlDemo {
+  umbrella header "Pods-SQlDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
