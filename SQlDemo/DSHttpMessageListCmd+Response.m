@@ -67,7 +67,7 @@
 }
 
 - (void)onRequestFailed:(NSError *)error{
-    NSLog(@"Error===%@",error);
+    NSLog(@"Error==%@",error);
     [self.result setErrMsg:[error localizedDescription]];
     [self.result setResultState:kRequestResultFail];
 }
