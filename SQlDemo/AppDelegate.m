@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "HTHttpConfig.h"
+#import "ProjectConfigGroup.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [HTHttpConfig sharedInstance].isout = NO;
+    [ProjectConfigGroup initHttpConfig];
     return YES;
 }
 
