@@ -14,6 +14,7 @@
 		17146C681FC419F600699754 /* PVHttpVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 17146C671FC419F600699754 /* PVHttpVersion.m */; };
 		17146C6E1FC41D5700699754 /* SNHttpRequestResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 17146C6D1FC41D5700699754 /* SNHttpRequestResult.m */; };
 		171C0B8A1FCBE17B00398969 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 171C0B8C1FCBE17B00398969 /* Localizable.strings */; };
+		172078961FCFDF3100DBC647 /* ViewController+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 172078951FCFDF3100DBC647 /* ViewController+View.m */; };
 		1760BF851FC2AE5C00882ED7 /* HttpCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1760BF841FC2AE5C00882ED7 /* HttpCommand.m */; };
 		1760BF891FC2AF3500882ED7 /* HttpConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1760BF881FC2AF3500882ED7 /* HttpConfig.m */; };
 		1760BF8C1FC2AF5D00882ED7 /* HttpConfigGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1760BF8B1FC2AF5D00882ED7 /* HttpConfigGroup.m */; };
@@ -74,6 +75,8 @@
 		171C0B8D1FCBE1F400398969 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		171C0B8E1FCBE1F400398969 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		171C0B8F1FCBE1F400398969 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		172078941FCFDF3100DBC647 /* ViewController+View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+View.h"; sourceTree = "<group>"; };
+		172078951FCFDF3100DBC647 /* ViewController+View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+View.m"; sourceTree = "<group>"; };
 		1760BF831FC2AE5C00882ED7 /* HttpCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpCommand.h; sourceTree = "<group>"; };
 		1760BF841FC2AE5C00882ED7 /* HttpCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpCommand.m; sourceTree = "<group>"; };
 		1760BF861FC2AEB200882ED7 /* HttpCommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpCommandProtocol.h; sourceTree = "<group>"; };
@@ -163,6 +166,11 @@
 		1760BF821FC2AE3E00882ED7 /* Http */ = {
 			isa = PBXGroup;
 			children = (
+				17146C5B1FC4179D00699754 /* DSHttpMessageListCmd.h */,
+				17146C5C1FC4179D00699754 /* DSHttpMessageListCmd.m */,
+				17146C631FC418CA00699754 /* DSHttpMessageListCmd+Response.h */,
+				17146C641FC418CA00699754 /* DSHttpMessageListCmd+Response.m */,
+				17146C691FC41CB500699754 /* DSHttpMessageListResult.h */,
 				1760BF861FC2AEB200882ED7 /* HttpCommandProtocol.h */,
 				1760BF831FC2AE5C00882ED7 /* HttpCommand.h */,
 				1760BF841FC2AE5C00882ED7 /* HttpCommand.m */,
@@ -268,12 +276,9 @@
 				178B11A41FC26C5D00E8F0BB /* AppDelegate.m */,
 				178B11A61FC26C5D00E8F0BB /* ViewController.h */,
 				178B11A71FC26C5D00E8F0BB /* ViewController.m */,
+				172078941FCFDF3100DBC647 /* ViewController+View.h */,
+				172078951FCFDF3100DBC647 /* ViewController+View.m */,
 				171C0B8C1FCBE17B00398969 /* Localizable.strings */,
-				17146C5B1FC4179D00699754 /* DSHttpMessageListCmd.h */,
-				17146C5C1FC4179D00699754 /* DSHttpMessageListCmd.m */,
-				17146C631FC418CA00699754 /* DSHttpMessageListCmd+Response.h */,
-				17146C641FC418CA00699754 /* DSHttpMessageListCmd+Response.m */,
-				17146C691FC41CB500699754 /* DSHttpMessageListResult.h */,
 				178B11A91FC26C5D00E8F0BB /* Main.storyboard */,
 				178B11AC1FC26C5D00E8F0BB /* Assets.xcassets */,
 				178B11AE1FC26C5D00E8F0BB /* LaunchScreen.storyboard */,
@@ -619,6 +624,7 @@
 				17A4DCA31FC667BE0025E61C /* SNHttpBaseDeleteCmd.m in Sources */,
 				17146C651FC418CA00699754 /* DSHttpMessageListCmd+Response.m in Sources */,
 				1760BF8C1FC2AF5D00882ED7 /* HttpConfigGroup.m in Sources */,
+				172078961FCFDF3100DBC647 /* ViewController+View.m in Sources */,
 				17146C6E1FC41D5700699754 /* SNHttpRequestResult.m in Sources */,
 				178B11B31FC26C5D00E8F0BB /* main.m in Sources */,
 				1760BF9D1FC2B57300882ED7 /* CommonFunc.m in Sources */,
